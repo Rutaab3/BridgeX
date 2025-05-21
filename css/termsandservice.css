@@ -14,29 +14,6 @@ body {
   padding-top: 70px;
 }
 
-/* Navbar Styles */
-.navbar {
-  background: linear-gradient(135deg, #000 0%, #001f24 100%);
-  border-bottom: 1px solid var(--secondary-color);
-  padding: 0.5rem 1rem;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
-.navbar-brand {
-  display: flex;
-  align-items: center;
-  padding: 0;
-}
-
-.navbar-brand img {
-  height: 35px;
-  width: auto;
-  margin-right: 10px;
-}
-
 .brand-text {
   color: var(--primary-color);
   font-weight: 700;
