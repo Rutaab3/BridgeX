@@ -6,30 +6,32 @@
     --overlay-color: rgba(0, 0, 0, 0.8);
   }
   
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--dark-color);
-    color: var(--light-color);
-    line-height: 1.6;
-    padding-top: 70px;
-  }
+ body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  position: relative;
+  line-height: 1.6;
+  margin: 0;    /* Add this */
+  padding: 0;   /* Add this */
+}
 
 
 
   /* Header Section Styles */
-  .hero-section {
-    height: 100vh;
-    background-image: url('../images/Bridge\ Img.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    margin-top: -10px;
-  }
+ .hero-section {
+  height: 100vh;
+  background-image: url('../images/Bridge\ Img.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  margin-top: 0; /* Add this */
+}
 
   .hero-section::before {
     content: '';
@@ -367,3 +369,13 @@ footer {
       height: 150px;
     }
   }
+  @media (max-width: 768px) {
+  body {
+    padding-top: 0 !important; /* Override any existing padding */
+  }
+  
+  .hero-section {
+    height: 100svh; /* Smallest viewport height */
+    min-height: -webkit-fill-available; /* For Safari */
+  }
+}
