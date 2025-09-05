@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" type="icon" href="./images/bridgeicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | BridgeX</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/gallery.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/bridgelogo1.png" alt="BridgeX Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+              <li><h6 class="dropdown-header">Bridge Types</h6></li>
+              <li><a class="dropdown-item" href="longestbridges.html">Longest Bridges</a></li>
+              <li><a class="dropdown-item" href="tallestbridges.html">Tallest Bridges</a></li>
+              <li><a class="dropdown-item" href="highestbridges.html">Highest Bridges</a></li>
+              <li><a class="dropdown-item" href="oldestbridges.html">Oldest Bridges</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="travel.html">Travel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="feedback.html">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQs</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link btn-login" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="gallery-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>World's Most Iconic Bridges</h2>
+      </div>
+      
+      <div class="gallery-container">
+        <!-- Millau Viaduct -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Millau Viaduct" data-bs-description="The world's tallest bridge with its tallest pylon at 343 meters. This cable-stayed bridge spans the Tarn River valley in France, completed in 2004. It handles approximately 28,000 vehicles daily and has become a global tourist attraction." data-bs-image="./images/Millau Viaduct bridge.jpeg">
+          <img src="./images/Millau Viaduct bridge.jpeg" alt="Millau Viaduct" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Millau Viaduct</h3>
+            <p>Millau, France</p>
+          </div>
+        </div>
+        
+        <!-- Pingtang Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Pingtang Bridge" data-bs-description="A 2,135-meter cable-stayed bridge crossing a deep valley in China's Guizhou Province. Completed in 2019, it features a 550-meter main span and enhances accessibility in China's mountainous southwest." data-bs-image="./images/Pingtang Bridge.jpeg">
+          <img src="./images/Pingtang Bridge.jpeg" alt="Pingtang Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Pingtang Bridge</h3>
+            <p>Guizhou, China</p>
+          </div>
+        </div>
+        
+        <!-- Yavuz Sultan Selim Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Yavuz Sultan Selim Bridge" data-bs-description="A hybrid suspension bridge spanning the Bosphorus in Istanbul, completed in 2016. With 322-meter pylons, it accommodates both highway and rail traffic, handling over 200,000 vehicles daily." data-bs-image="./images/Yavuz Sultan Selim Bridge.jpeg">
+          <img src="./images/Yavuz Sultan Selim Bridge.jpeg" alt="Yavuz Sultan Selim Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Yavuz Sultan Selim Bridge</h3>
+            <p>Istanbul, Turkey</p>
+          </div>
+        </div>
+        
+        <!-- Russky Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Russky Bridge" data-bs-description="Connects Vladivostok to Russky Island with a record-breaking 1,104-meter main span. Completed in 2012, this cable-stayed bridge withstands typhoons and subzero temperatures." data-bs-image="./images/Russky Bridge.jpeg">
+          <img src="./images/Russky Bridge.jpeg" alt="Russky Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Russky Bridge</h3>
+            <p>Vladivostok, Russia</p>
+          </div>
+        </div>
+        
+        <!-- Sutong Yangtze River Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Sutong Yangtze River Bridge" data-bs-description="An 8,206-meter cable-stayed bridge crossing the Yangtze River in China. Completed in 2008, it features 306-meter pylons and supports 80,000 vehicles daily on the G15 Shenhai Expressway." data-bs-image="./images/Sutong Yangtze River Bridge.jpeg">
+          <img src="./images/Sutong Yangtze River Bridge.jpeg" alt="Sutong Yangtze River Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Sutong Yangtze River Bridge</h3>
+            <p>Jiangsu, China</p>
+          </div>
+        </div>
+        
+        <!-- Stonecutters Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Stonecutters Bridge" data-bs-description="A cable-stayed bridge spanning Hong Kong's Rambler Channel, completed in 2009. Its 298-meter pylons and 1,018-meter main span support 80,000 vehicles daily on Route 8." data-bs-image="./images/Stonecutters Bridge.jpeg">
+          <img src="./images/Stonecutters Bridge.jpeg" alt="Stonecutters Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Stonecutters Bridge</h3>
+            <p>Hong Kong, China</p>
+          </div>
+        </div>
+
+        <!-- Akashi Kaikyo Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Akashi Kaikyo Bridge" data-bs-description="The world's longest suspension bridge with a 1,991-meter main span. Completed in 1998, it links Kobe to Awaji Island in Japan and can withstand earthquakes and typhoon winds." data-bs-image="./images/Akashi Kaikyo Bridge.jpeg">
+          <img src="./images/Akashi Kaikyo Bridge.jpeg" alt="Akashi Kaikyo Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Akashi Kaikyo Bridge</h3>
+            <p>Kobe, Japan</p>
+          </div>
+        </div>
+
+        <!-- Jingyue Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Jingyue Bridge" data-bs-description="A cable-stayed bridge crossing the Yangtze River in Hubei, China. Completed in 2010, its 280-meter pylons and 816-meter main span support 60,000 vehicles daily on the G56 Expressway." data-bs-image="./images/Jingyue Bridge.jpeg">
+          <img src="./images/Jingyue Bridge.jpeg" alt="Jingyue Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Jingyue Bridge</h3>
+            <p>Hubei, China</p>
+          </div>
+        </div>
+
+        <!-- Tatara Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Tatara Bridge" data-bs-description="A cable-stayed bridge spanning Japan's Seto Inland Sea between Honshu and Shikoku. Completed in 1999, its 220-meter pylons and 890-meter main span were record-breaking at the time." data-bs-image="./images/Tatara Bridge.jpeg">
+          <img src="./images/Tatara Bridge.jpeg" alt="Tatara Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Tatara Bridge</h3>
+            <p>Hiroshima, Japan</p>
+          </div>
+        </div>
+
+        <!-- Great Belt East Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Great Belt East Bridge" data-bs-description="A suspension bridge linking Zealand and Funen in Denmark. Completed in 1998, its 254-meter pylons and 1,624-meter main span reduced travel time between Copenhagen and Funen from 90 minutes to 10." data-bs-image="./images/Great Belt East Bridge.jpeg">
+          <img src="./images/Great Belt East Bridge.jpeg" alt="Great Belt East Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Great Belt East Bridge</h3>
+            <p>Denmark</p>
+          </div>
+        </div>
+
+        <!-- Duge Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Duge Bridge" data-bs-description="The world's highest bridge with a deck 565 meters above the Beipan River in China. Completed in 2016, this 1,340-meter cable-stayed bridge connects Yunnan and Guizhou provinces." data-bs-image="./images/duge bridge .jpg">
+          <img src="./images/duge bridge .jpg" alt="Duge Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Duge Bridge</h3>
+            <p>Guizhou, China</p>
+          </div>
+        </div>
+
+        <!-- Sidu River Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Sidu River Bridge" data-bs-description="One of the world's highest bridges at 496 meters above the Sidu River valley. Completed in 2009, this suspension bridge forms part of the G50 Shanghai-Chongqing Expressway in China." data-bs-image="./images/Sidu River bridge.png">
+          <img src="./images/Sidu River bridge.png" alt="Sidu River Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Sidu River Bridge</h3>
+            <p>Hubei, China</p>
+          </div>
+        </div>
+
+        <!-- Pull Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Pull Bridge" data-bs-description="A suspension bridge with a deck 485 meters above a valley in Yunnan, China. Completed in 2015, it forms part of the G56 Hangzhou-Ruili Expressway, connecting remote regions." data-bs-image="./images/puli bridge china .jpg">
+          <img src="./images/puli bridge china .jpg" alt="Pull Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Pull Bridge</h3>
+            <p>Yunnan, China</p>
+          </div>
+        </div>
+
+        <!-- Qingshuihe Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Qingshuihe Bridge" data-bs-description="A suspension bridge with a deck 406 meters above the Qingshui River in China. Completed in 2015, its 2,171-meter span forms part of the G60 Shanghai-Kunming Expressway." data-bs-image="./images/qingshuihe bridge .png">
+          <img src="./images/qingshuihe bridge .png" alt="Qingshuihe Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Qingshuihe Bridge</h3>
+            <p>Guizhou, China</p>
+          </div>
+        </div>
+
+        <!-- Baling River Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Baling River Bridge" data-bs-description="A suspension bridge with a deck 370 meters above the Baling River in China. Completed in 2009, its 2,237-meter span supports 25,000 vehicles daily on the G60 Expressway." data-bs-image="./images/baling River bridge .png">
+          <img src="./images/baling River bridge .png" alt="Baling River Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Baling River Bridge</h3>
+            <p>Guizhou, China</p>
+          </div>
+        </div>
+
+        <!-- Beipanjiang Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Beipanjiang Bridge" data-bs-description="A cable-stayed bridge with a deck 366 meters above the Beipan River in China. Completed in 2003, its 1,341-meter span was a pioneering high-altitude bridge in the region." data-bs-image="./images/beipanjiang bridge.png">
+          <img src="./images/beipanjiang bridge.png" alt="Beipanjiang Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Beipanjiang Bridge</h3>
+            <p>Guizhou, China</p>
+          </div>
+        </div>
+
+        <!-- Liuguanghe Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Liuguanghe Bridge" data-bs-description="A beam bridge with a deck 297 meters above the Liuguang River in China. Completed in 2001, this 580-meter bridge was among the highest in the world at the time." data-bs-image="./images/Liuguanghe Bridge .png">
+          <img src="./images/Liuguanghe Bridge .png" alt="Liuguanghe Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Liuguanghe Bridge</h3>
+            <p>Guizhou, China</p>
+          </div>
+        </div>
+
+        <!-- Yachi River Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Yachi River Bridge" data-bs-description="A cable-stayed bridge with a deck 306 meters above the Yachi River in China. Completed in 2016, its 1,452-meter span supports 30,000 vehicles daily on the G56 Expressway." data-bs-image="./images/yachi bridge river .png">
+          <img src="./images/yachi bridge river .png" alt="Yachi River Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Yachi River Bridge</h3>
+            <p>Guizhou, China</p>
+          </div>
+        </div>
+
+        <!-- Royal Gorge Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Royal Gorge Bridge" data-bs-description="A historic suspension bridge 291 meters above the Arkansas River in Colorado. Completed in 1929 as a tourist attraction, it now draws 500,000 visitors annually to its pedestrian walkway." data-bs-image="./images/Royal gorge bridge .jpg">
+          <img src="./images/Royal gorge bridge .jpg" alt="Royal Gorge Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Royal Gorge Bridge</h3>
+            <p>Colorado, USA</p>
+          </div>
+        </div>
+
+        <!-- Zhijinghe River Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Zhijinghe River Bridge" data-bs-description="An arch bridge with a deck 294 meters above the Zhijinghe River in China. Completed in 2009, this 430-meter bridge forms part of the G50 Shanghai-Chongqing Expressway." data-bs-image="./images/zhinjinghe river bridge .png">
+          <img src="./images/zhinjinghe river bridge .png" alt="Zhijinghe River Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Zhijinghe River Bridge</h3>
+            <p>Hubei, China</p>
+          </div>
+        </div>
+
+        <!-- Alcantara Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Alcantara Bridge" data-bs-description="One of the world's oldest bridges still in use, completed in 106 AD in Portugal. This Roman stone arch bridge spans the Tagus River with six granite arches built without mortar." data-bs-image="./images/alcantara bridge .png">
+          <img src="./images/alcantara bridge .png" alt="Alcantara Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Alcantara Bridge</h3>
+            <p>Lisbon, Portugal</p>
+          </div>
+        </div>
+
+        <!-- Ponte Fabricio -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Ponte Fabricio" data-bs-description="Rome's oldest bridge still in use, completed in 62 BC. This 62-meter stone arch bridge connects the city center with Tiber Island and has survived floods and invasions." data-bs-image="./images/ponti fabricio bridge.png">
+          <img src="./images/ponti fabricio bridge.png" alt="Ponte Fabricio" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Ponte Fabricio</h3>
+            <p>Rome, Italy</p>
+          </div>
+        </div>
+
+        <!-- Ponte di Tiberio -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Ponte di Tiberio" data-bs-description="A Roman stone arch bridge completed in 20 AD in Rimini, Italy. This 70-meter bridge with five arches was a vital link in the Via Emilia, connecting Rome to northern Italy." data-bs-image="./images/ponti Di tiberio .jpg">
+          <img src="./images/ponti Di tiberio .jpg" alt="Ponte di Tiberio" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Ponte di Tiberio</h3>
+            <p>Rimini, Italy</p>
+          </div>
+        </div>
+
+        <!-- Ponte Vecchio -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Ponte Vecchio" data-bs-description="A medieval stone arch bridge spanning the Arno River in Florence, completed in 1345. Famous for its shops housing jewelers and artisans, it's a major tourist attraction." data-bs-image="./images/ponte vecchio bridge .jpg">
+          <img src="./images/ponte vecchio bridge .jpg" alt="Ponte Vecchio" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Ponte Vecchio</h3>
+            <p>Florence, Italy</p>
+          </div>
+        </div>
+
+        <!-- Charles Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Charles Bridge" data-bs-description="A Gothic stone arch bridge spanning the Vltava River in Prague, completed in 1402. Adorned with 30 Baroque statues, it's a vibrant pedestrian hub and major tourist attraction." data-bs-image="./images/Charles bridge .jpg">
+          <img src="./images/Charles bridge .jpg" alt="Charles Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Charles Bridge</h3>
+            <p>Prague, Czech Republic</p>
+          </div>
+        </div>
+
+        <!-- Rialto Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Rialto Bridge" data-bs-description="A Renaissance stone arch bridge spanning Venice's Grand Canal, completed in 1591. Its single 22-meter arch and iconic shops make it one of Venice's most famous landmarks." data-bs-image="./images/Rialto bridge .png">
+          <img src="./images/Rialto bridge .png" alt="Rialto Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Rialto Bridge</h3>
+            <p>Venice, Italy</p>
+          </div>
+        </div>
+
+        <!-- Ponte delle Torri -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Ponte delle Torri" data-bs-description="A medieval stone arch bridge in Spoleto, Italy, originally serving as an aqueduct. Completed around 1350, this 230-meter bridge features 10 Gothic arches spanning the Tessino valley." data-bs-image="./images/ponte Delle torri bridge .png">
+          <img src="./images/ponte Delle torri bridge .png" alt="Ponte delle Torri" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Ponte delle Torri</h3>
+            <p>Spoleto, Italy</p>
+          </div>
+        </div>
+
+        <!-- Puente Romano -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Puente Romano" data-bs-description="One of the world's oldest bridges still in use, built by the Romans in the 1st century AD. This 790-meter stone arch bridge spans the Guadiana River in Mérida, Spain." data-bs-image="./images/Puente Romano.jpg">
+          <img src="./images/Puente Romano.jpg" alt="Puente Romano" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Puente Romano</h3>
+            <p>Mérida, Spain</p>
+          </div>
+        </div>
+
+        <!-- Anji Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Anji Bridge" data-bs-description="One of the world's oldest stone arch bridges still in use, completed in 605 AD in China. This 50-meter bridge features an innovative open-spandrel design with a 37-meter segmental arch." data-bs-image="./images/anji bridge .jpg">
+          <img src="./images/anji bridge .jpg" alt="Anji Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Anji Bridge</h3>
+            <p>Hebei, China</p>
+          </div>
+        </div>
+
+        <!-- Hyde Hall Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Hyde Hall Bridge" data-bs-description="One of the oldest covered wooden bridges still in use in the USA, completed in 1825. This 16-meter bridge in Cooperstown, New York features a Burr arch truss design." data-bs-image="./images/Hyde hall bridge .png">
+          <img src="./images/Hyde hall bridge .png" alt="Hyde Hall Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Hyde Hall Bridge</h3>
+            <p>New York, USA</p>
+          </div>
+        </div>
+
+        <!-- Danyang-Kunshan Grand Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Danyang-Kunshan Grand Bridge" data-bs-description="The world's longest bridge at 164.8 kilometers, part of China's Beijing-Shanghai High-Speed Railway. Completed in 2011, this viaduct handles 80 million passengers annually, reducing travel time from 10 hours to 4." data-bs-image="./images/danyang-kunshan bridge_.png">
+          <img src="./images/danyang-kunshan bridge_.png" alt="Danyang-Kunshan Grand Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Danyang-Kunshan Grand Bridge</h3>
+            <p>Jiangsu, China</p>
+          </div>
+        </div>
+
+        <!-- Changhua-Kaohsiung Viaduct -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Changhua-Kaohsiung Viaduct" data-bs-description="The world's second-longest bridge at 157.3 kilometers, part of Taiwan's High-Speed Rail. Completed in 2007, it reduced travel time between Taipei and Kaohsiung from 4.5 hours to 1.5." data-bs-image="./images/changua-kaohsiung viaduct_.png">
+          <img src="./images/changua-kaohsiung viaduct_.png" alt="Changhua-Kaohsiung Viaduct" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Changhua-Kaohsiung Viaduct</h3>
+            <p>Taiwan</p>
+          </div>
+        </div>
+
+        <!-- Tianjin Grand Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Tianjin Grand Bridge" data-bs-description="One of the world's longest bridges at 113.7 kilometers, part of China's Beijing-Shanghai High-Speed Railway. Completed in 2011, this viaduct handles 80 million passengers annually." data-bs-image="./images/Tianjin grand bridge_.png">
+          <img src="./images/Tianjin grand bridge_.png" alt="Tianjin Grand Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Tianjin Grand Bridge</h3>
+            <p>Tianjin, China</p>
+          </div>
+        </div>
+
+        <!-- Cangde Grand Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Cangde Grand Bridge" data-bs-description="A 105.8-kilometer viaduct bridge part of China's Beijing-Shanghai High-Speed Railway. Completed in 2010, it navigates soft soil and urban areas while supporting high-speed trains at 300 km/h." data-bs-image="./images/Cangde Grand bridge_.png">
+          <img src="./images/Cangde Grand bridge_.png" alt="Cangde Grand Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Cangde Grand Bridge</h3>
+            <p>Hebei, China</p>
+          </div>
+        </div>
+
+        <!-- Weinan Weihe Grand Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Weinan Weihe Grand Bridge" data-bs-description="A 79.7-kilometer viaduct bridge part of China's Zhengzhou-Xi'an High-Speed Railway. Completed in 2008, it reduced travel time between Zhengzhou and Xi'an from 6 hours to 2." data-bs-image="./images/weinan weihe grand bridge_.png">
+          <img src="./images/weinan weihe grand bridge_.png" alt="Weinan Weihe Grand Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Weinan Weihe Grand Bridge</h3>
+            <p>Shaanxi, China</p>
+          </div>
+        </div>
+
+        <!-- Bang Na Expressway -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Bang Na Expressway" data-bs-description="A 54-kilometer elevated viaduct bridge across Bangkok, Thailand. Completed in 2000, it supports 120,000 vehicles daily and reduced travel time across the city by 30 minutes." data-bs-image="./images/Bang Na Expressway.png">
+          <img src="./images/Bang Na Expressway.png" alt="Bang Na Expressway" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Bang Na Expressway</h3>
+            <p>Bangkok, Thailand</p>
+          </div>
+        </div>
+
+        <!-- Beijing Grand Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Beijing Grand Bridge" data-bs-description="A 48.2-kilometer viaduct bridge part of China's Beijing-Shanghai High-Speed Railway. Completed in 2011, it handles 80 million passengers annually while navigating urban areas and soft soil." data-bs-image="./images/Beijing Grand bridge_.png">
+          <img src="./images/Beijing Grand bridge_.png" alt="Beijing Grand Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Beijing Grand Bridge</h3>
+            <p>Beijing, China</p>
+          </div>
+        </div>
+
+        <!-- Manchac Swamp Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Manchac Swamp Bridge" data-bs-description="A 36.7-kilometer viaduct bridge across Louisiana's Manchac Swamp. Completed in 1979, this part of Interstate 55 supports 35,000 vehicles daily while preserving wetland ecosystems." data-bs-image="./images/Manchac Swamp Bridge.png">
+          <img src="./images/Manchac Swamp Bridge.png" alt="Manchac Swamp Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Manchac Swamp Bridge</h3>
+            <p>Louisiana, USA</p>
+          </div>
+        </div>
+
+        <!-- Hangzhou Bay Bridge -->
+        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="Hangzhou Bay Bridge" data-bs-description="A 35.7-kilometer cable-stayed bridge across China's Hangzhou Bay. Completed in 2008, its S-shaped design supports 50,000 vehicles daily, reducing travel time between Shanghai and Ningbo from 4 hours to 2." data-bs-image="./images/Hangzhou bay bridge_.png">
+          <img src="./images/Hangzhou bay bridge_.png" alt="Hangzhou Bay Bridge" class="gallery-img">
+          <div class="gallery-caption">
+            <h3>Hangzhou Bay Bridge</h3>
+            <p>Zhejiang, China</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Download Buttons -->
+        <div class="download-options">
+      <a href="./pdfs/World’s Most Iconic Bridges.pdf" download class="download-btn">
+        <i class="fas fa-file-pdf"></i> Download as PDF
+      </a>
+   </div>
+  </section>
+
+  <!-- Image Modal -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="imageModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="" id="modalImage" class="img-fluid" alt="">
+          <p class="mt-3" id="modalDescription"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Company Info -->
+      <div class="footer-col">
+        <img src="./images/bridgelogo1.png" alt=""  style=" margin-bottom: 1.2rem; height: 30px;">
+        <p class="footer-about">Dedicated to showcasing engineering marvels and the history of bridge architecture worldwide.</p>
+        <div class="footer-legal">
+          <p>&copy; 2025 BridgeX. All Rights Reserved.</p>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="history.html">Bridge History</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+
+      <!-- Connect -->
+      <div class="footer-col">
+        <h4>Connect With Us</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-contact">
+          <p><i class="fas fa-envelope"></i> info@bridgex.com</p>
+          <p><i class="fas fa-phone"></i> +92 123456789</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+<script> window.chtlConfig = { chatbotId: "6762866872" } </script>
+<script async data-id="6762866872" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+  <script src="./js/gallery.js"></script>
+</body>
+</html>

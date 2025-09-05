@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" type="icon" href="./images/bridgeicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login/Signup | BridgeX</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+
+  <!-- Alert Container -->
+  <div class="alert-container">
+    <div class="alert alert-info" id="successAlert" role="alert"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/bridgelogo1.png" alt="BridgeX Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+              <li><h6 class="dropdown-header">Bridge Types</h6></li>
+              <li><a class="dropdown-item" href="longestbridges.html">Longest Bridges</a></li>
+              <li><a class="dropdown-item" href="tallestbridges.html">Tallest Bridges</a></li>
+              <li><a class="dropdown-item" href="highestbridges.html">Highest Bridges</a></li>
+              <li><a class="dropdown-item" href="oldestbridges.html">Oldest Bridges</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="travel.html">Travel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="feedback.html">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQs</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link btn-login" href="login.html">Login</a>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Auth Section -->
+  <section class="auth-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Welcome to BridgeX</h2>
+      </div>
+
+      <div class="auth-card">
+        <!-- Tabs for Login/Signup -->
+        <div class="auth-tabs">
+          <div class="auth-tab active" data-tab="login">Login</div>
+          <div class="auth-tab" data-tab="signup">Sign Up</div>
+        </div>
+        
+        <!-- Login Form -->
+        <div class="auth-content active" id="login-content">
+          <form id="loginForm">
+            <div class="mb-3">
+              <label for="login-email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="login-email" placeholder="Enter your email" required>
+              <div class="invalid-feedback" id="login-email-feedback">Please enter a valid email address</div>
+            </div>
+            
+            <div class="mb-3">
+              <label for="login-password" class="form-label">Password</label>
+              <div class="password-input-group">
+                <input type="password" class="form-control password-input" id="login-password" placeholder="Enter your password" required>
+                <button type="button" class="password-toggle" onclick="togglePassword('login-password', 'login-toggle-icon')">
+                  <i id="login-toggle-icon" class="fas fa-eye"></i>
+                </button>
+              </div>
+              <div class="invalid-feedback" id="login-password-feedback">Please enter your password</div>
+            </div>
+            
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="remember-me">
+                <label class="form-check-label" for="remember-me">Remember me</label>
+              </div>
+              <a href="#" class="text-decoration-none" style="color: var(--primary-color);">Forgot password?</a>
+            </div>
+            
+            <button type="submit" class="btn btn-auth">Login</button>
+            
+            <div class="divider">OR</div>
+            
+            <div class="social-login">
+              <a href="https://accounts.google.com.pk" class="social-btn"><i class="fab fa-google"></i></a>
+              <a href="https://www.facebook.com" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.twitter.com" class="social-btn"><i class="fab fa-twitter"></i></a>
+            </div>
+            
+            <div class="auth-switch">
+              Don't have an account? <a href="#" class="switch-to-signup">Sign up</a>
+            </div>
+          </form>
+        </div>
+        
+        <!-- Signup Form -->
+        <div class="auth-content" id="signup-content">
+          <form id="signupForm">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="signup-fname" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="signup-fname" placeholder="Enter first name" required>
+                <div class="invalid-feedback">Please enter your first name</div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="signup-lname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="signup-lname" placeholder="Enter last name" required>
+                <div class="invalid-feedback">Please enter your last name</div>
+              </div>
+            </div>
+            
+            <div class="mb-3">
+              <label for="signup-email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="signup-email" placeholder="Enter your email" required>
+              <div class="invalid-feedback" id="signup-email-feedback">Please enter a valid email address</div>
+            </div>
+            
+            <div class="mb-3">
+              <label for="signup-password" class="form-label">Password</label>
+              <div class="password-input-group">
+                <input type="password" class="form-control password-input" id="signup-password" placeholder="Create a password" required>
+                <button type="button" class="password-toggle" onclick="togglePassword('signup-password', 'signup-toggle-icon')">
+                  <i id="signup-toggle-icon" class="fas fa-eye"></i>
+                </button>
+              </div>
+              <div class="password-requirements">
+                <small class="text-muted">Password must contain:</small>
+                <ul class="list-unstyled">
+                  <li id="req-length" class="text-danger"><i class="fas fa-times-circle"></i> At least 8 characters</li>
+                  <li id="req-uppercase" class="text-danger"><i class="fas fa-times-circle"></i> 1 uppercase letter</li>
+                  <li id="req-lowercase" class="text-danger"><i class="fas fa-times-circle"></i> 1 lowercase letter</li>
+                  <li id="req-number" class="text-danger"><i class="fas fa-times-circle"></i> 1 number</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="mb-3">
+              <label for="signup-confirm-password" class="form-label">Confirm Password</label>
+              <div class="password-input-group">
+                <input type="password" class="form-control password-input" id="signup-confirm-password" placeholder="Confirm your password" required>
+                <button type="button" class="password-toggle" onclick="togglePassword('signup-confirm-password', 'confirm-toggle-icon')">
+                  <i id="confirm-toggle-icon" class="fas fa-eye"></i>
+                </button>
+              </div>
+              <div class="invalid-feedback" id="confirm-password-feedback">Passwords do not match</div>
+            </div>
+            
+            <div class="form-check mb-3">
+              <input class="form-check-input" type="checkbox" id="terms-agree" required>
+              <label class="form-check-label" for="terms-agree">
+                I agree to the <a href="termsandservice.html" style="color: var(--primary-color);">Terms of Service</a> and <a href="privacypolicy.html" style="color: var(--primary-color);">Privacy Policy</a>
+              </label>
+              <div class="invalid-feedback">You must agree to the terms</div>
+            </div>
+            
+            <button type="submit" class="btn btn-auth" id="signup-button">Create Account</button>
+            
+            <div class="auth-switch">
+              Already have an account? <a href="#" class="switch-to-login">Login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Company Info -->
+        <div class="footer-col">
+          <img src="./images/bridgelogo1.png" alt=""  style=" margin-bottom: 1.2rem; height: 30px;">
+          <p class="footer-about">Dedicated to showcasing engineering marvels and the history of bridge architecture worldwide.</p>
+          <div class="footer-legal">
+            <p>&copy; 2025 BridgeX. All Rights Reserved.</p>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+          </ul>
+        </div>
+
+        <!-- Resources -->
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul class="footer-links">
+            <li><a href="history.html">Bridge History</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+        </div>
+
+        <!-- Connect -->
+        <div class="footer-col">
+          <h4>Connect With Us</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div class="footer-contact">
+            <p><i class="fas fa-envelope"></i> info@bridgex.com</p>
+            <p><i class="fas fa-phone"></i> +92 123456789</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+<script> window.chtlConfig = { chatbotId: "6762866872" } </script>
+<script async data-id="6762866872" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+</html>

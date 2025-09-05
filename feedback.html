@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" type="icon" href="./images/bridgeicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback | BridgeX</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/feedback.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/bridgelogo1.png" alt="BridgeX Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+              <li><h6 class="dropdown-header">Bridge Types</h6></li>
+              <li><a class="dropdown-item" href="longestbridges.html">Longest Bridges</a></li>
+              <li><a class="dropdown-item" href="tallestbridges.html">Tallest Bridges</a></li>
+              <li><a class="dropdown-item" href="highestbridges.html">Highest Bridges</a></li>
+              <li><a class="dropdown-item" href="oldestbridges.html">Oldest Bridges</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="travel.html">Travel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="feedback.html">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQs</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link btn-login" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- alert -->
+  <div id="formAlert" class="alert alert-info alert-dismissible fade show" role="alert" style="display: none;">
+    Thank you! Your feedback has been submitted successfully.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <!-- Feedback Section -->
+  <section class="feedback-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Share Your Feedback</h2>
+      </div>
+      
+      <div class="feedback-card">
+        <form>
+          <div class="mb-4">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          
+          <div class="mb-4">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          
+          <div class="mb-4">
+            <label for="feedbackType" class="form-label">Feedback Type</label>
+            <select class="form-select" id="feedbackType" required>
+              <option value="" selected disabled>Select feedback type</option>
+              <option value="suggestion">Suggestion</option>
+              <option value="compliment">Compliment</option>
+              <option value="bug">Bug Report</option>
+              <option value="general">General Feedback</option>
+            </select>
+          </div>
+          
+          <div class="mb-4">
+            <label for="message" class="form-label">Your Feedback</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Share your thoughts with us..." required></textarea>
+          </div>
+          
+          <div class="text-center">
+            <button type="submit" class="btn btn-submit">Submit Feedback</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Company Info -->
+      <div class="footer-col">
+        <img src="./images/bridgelogo1.png" alt=""  style=" margin-bottom: 1.2rem; height: 30px;">
+        <p class="footer-about">Dedicated to showcasing engineering marvels and the history of bridge architecture worldwide.</p>
+        <div class="footer-legal">
+          <p>&copy; 2025 BridgeX. All Rights Reserved.</p>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="history.html">Bridge History</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+
+      <!-- Connect -->
+      <div class="footer-col">
+        <h4>Connect With Us</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-contact">
+          <p><i class="fas fa-envelope"></i> info@bridgex.com</p>
+          <p><i class="fas fa-phone"></i> +92 123456789</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+<script> window.chtlConfig = { chatbotId: "6762866872" } </script>
+<script async data-id="6762866872" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+  <script src="./js/feedback.js"></script>
+</body>
+</html>

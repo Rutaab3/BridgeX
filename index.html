@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="shortcut icon" type="icon" href="./images/bridgeicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | BridgeX</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/bridgelogo1.png" alt="BridgeX Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+              <li><h6 class="dropdown-header">Bridge Types</h6></li>
+              <li><a class="dropdown-item" href="longestbridges.html">Longest Bridges</a></li>
+              <li><a class="dropdown-item" href="tallestbridges.html">Tallest Bridges</a></li>
+              <li><a class="dropdown-item" href="highestbridges.html">Highest Bridges</a></li>
+              <li><a class="dropdown-item" href="oldestbridges.html">Oldest Bridges</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="travel.html">Travel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="feedback.html">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQs</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link btn-login" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>Welcome to BridgeX</h1>
+      <p>Explore the marvels of bridge engineering and their historical significance. Connecting the past to the future, one span at a time.</p>
+      <a href="#categories" class="btn btn-explore">Explore Bridges</a>
+    </div>
+  </section>
+
+<!-- Engineering Marvels Section -->
+<section class="content-section" style="background-color: #0a1a1f;">
+  <div class="container">
+    <div class="section-title">
+      <h2>Engineering Breakthroughs</h2>
+      <p class="section-subtitle">Innovations that transformed bridge construction</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">100 BCE</div>
+        <div class="timeline-content">
+          <h4>Roman Arch Bridges</h4>
+          <p>The Romans perfected the arch bridge, using concrete and stone to create structures that could span greater distances than ever before.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">1779</div>
+        <div class="timeline-content">
+          <h4>Iron Bridge</h4>
+          <p>The world's first iron bridge built in England marked the beginning of metal bridge construction during the Industrial Revolution.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">1883</div>
+        <div class="timeline-content">
+          <h4>Brooklyn Bridge</h4>
+          <p>This hybrid cable-stayed/suspension bridge introduced steel wire cables, revolutionizing long-span bridge construction.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2024</div>
+        <div class="timeline-content">
+          <h4>Smart Bridges</h4>
+          <p>Modern bridges incorporate sensors and AI to monitor structural health in real-time, predicting maintenance needs before issues arise.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Categories Section -->
+  <section id="categories" class="content-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Bridge Categories</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="bridge-card">
+            <div class="bridge-img-container">
+              <img src="./images/danyang-kunshan bridge_.png" alt="Longest Bridges" class="bridge-img">
+            </div>
+            <div class="card-content">
+              <h3>Longest Bridges</h3>
+              <p>Discover the world's most extensive bridge structures spanning great distances.</p>
+              <a href="longestbridges.html" class="btn btn-explore">View Bridges</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="bridge-card">
+            <div class="bridge-img-container">
+              <img src="./images/Millau Viaduct bridge.jpeg" alt="Tallest Bridges" class="bridge-img">
+            </div>
+            <div class="card-content">
+              <h3>Tallest Bridges</h3>
+              <p>Explore bridges that reach staggering heights above valleys and waterways.</p>
+              <a href="tallestbridges.html" class="btn btn-explore">View Bridges</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="bridge-card">
+            <div class="bridge-img-container">
+              <img src="./images/duge bridge .jpg" alt="Highest Bridges" class="bridge-img">
+            </div>
+            <div class="card-content">
+              <h3>Highest Bridges</h3>
+              <p>See bridges built at extreme elevations above sea level.</p>
+              <a href="highestbridges.html" class="btn btn-explore">View Bridges</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="bridge-card">
+            <div class="bridge-img-container">
+              <img src="./images/arkadiko bridge.jpg" alt="Oldest Bridges" class="bridge-img">
+            </div>
+            <div class="card-content">
+              <h3>Oldest Bridges</h3>
+              <p>Journey through history with bridges that have stood the test of time.</p>
+              <a href="oldestbridges.html" class="btn btn-explore">View Bridges</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- History Section -->
+  <section id="history" class="content-section history-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Bridge History & Information</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="bridge-card">
+            <div class="bridge-img-container">
+              <img src="./images/London Bridge.jpg" class="bridge-img" alt="London Bridge">
+            </div>
+            <div class="card-content">
+              <h3>London Bridge</h3>
+              <p>Opened in 1973, it connects the City of London with Southwark. The previous bridge was relocated to Arizona, USA.</p>
+              <a href="history.html" class="btn btn-explore">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bridge-card">
+            <div class="bridge-img-container">
+              <img src="./images/Forth Bridge.jpg" class="bridge-img" alt="Forth Bridge">
+            </div>
+            <div class="card-content">
+              <h3>Forth Bridge</h3>
+              <p>A UNESCO World Heritage Site, this Scottish cantilever bridge opened in 1890 and is still used by trains today.</p>
+              <a href="history.html" class="btn btn-explore">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bridge-card">
+            <div class="bridge-img-container">
+              <img src="./images/sydney harbor bridge.jpg" class="bridge-img" alt="Sydney Harbor Bridge">
+            </div>
+            <div class="card-content">
+              <h3>Sydney Harbor Bridge</h3>
+              <p>Completed in 1932, this iconic Australian landmark connects the central business district with North Shore.</p>
+              <a href="history.html" class="btn btn-explore">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Company Info -->
+      <div class="footer-col">
+        <img src="./images/bridgelogo1.png" alt=""  style=" margin-bottom: 1.2rem; height: 30px;">
+        <p class="footer-about">Dedicated to showcasing engineering marvels and the history of bridge architecture worldwide.</p>
+        <div class="footer-legal">
+          <p>&copy; 2025 BridgeX. All Rights Reserved.</p>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="history.html">Bridge History</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+
+      <!-- Connect -->
+      <div class="footer-col">
+        <h4>Connect With Us</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-contact">
+          <p><i class="fas fa-envelope"></i> info@bridgex.com</p>
+          <p><i class="fas fa-phone"></i> +92 123456789</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+<script> window.chtlConfig = { chatbotId: "6762866872" } </script>
+<script async data-id="6762866872" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" type="icon" href="./images/bridgeicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQs | BridgeX</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/faq.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/bridgelogo1.png" alt="BridgeX Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+              <li><h6 class="dropdown-header">Bridge Types</h6></li>
+              <li><a class="dropdown-item" href="longestbridges.html">Longest Bridges</a></li>
+              <li><a class="dropdown-item" href="tallestbridges.html">Tallest Bridges</a></li>
+              <li><a class="dropdown-item" href="highestbridges.html">Highest Bridges</a></li>
+              <li><a class="dropdown-item" href="oldestbridges.html">Oldest Bridges</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="travel.html">Travel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="feedback.html">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="faq.html">FAQs</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link btn-login" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Frequently Asked Questions</h2>
+        <p class="section-subtitle">Find answers to common questions about BridgeX</p>
+      </div>
+      
+      <div class="faq-container">
+        <!-- FAQ Items -->
+        <div class="faq-card">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            <h3>What is BridgeX?</h3>
+            <i class="fas fa-chevron-down faq-toggle"></i>
+          </div>
+          <div class="faq-answer">
+            <p>BridgeX is a comprehensive platform dedicated to documenting and showcasing bridges from around the world. We provide detailed information about bridge architecture, engineering, history, and cultural significance. Our mission is to educate and inspire people about these remarkable structures that connect communities.</p>
+          </div>
+        </div>
+        
+        <div class="faq-card">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            <h3>How often is your bridge database updated?</h3>
+            <i class="fas fa-chevron-down faq-toggle"></i>
+          </div>
+          <div class="faq-answer">
+            <p>We update our database monthly with new bridges and additional information about existing entries. Our team of researchers and contributors constantly verifies and expands our content to ensure accuracy and completeness.</p>
+          </div>
+        </div>
+        
+        <div class="faq-card">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            <h3>Can I contribute information or photos to BridgeX?</h3>
+            <i class="fas fa-chevron-down faq-toggle"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Absolutely! We welcome contributions from bridge enthusiasts worldwide. You can submit information, photos, or corrections through our Contact page. All submissions are reviewed by our editorial team before being published to ensure quality and accuracy.</p>
+          </div>
+        </div>
+        
+        <div class="faq-card">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            <h3>How do you determine which bridges to feature?</h3>
+            <i class="fas fa-chevron-down faq-toggle"></i>
+          </div>
+          <div class="faq-answer">
+            <p>We feature bridges based on several criteria including engineering significance, historical importance, architectural uniqueness, and cultural impact. Our selection process considers both famous landmark bridges and lesser-known structures with interesting stories or technical achievements.</p>
+          </div>
+        </div>
+        
+        <div class="faq-card">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            <h3>Is BridgeX free to use?</h3>
+            <i class="fas fa-chevron-down faq-toggle"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, BridgeX is completely free to use. We believe knowledge about bridges should be accessible to everyone. Our platform is supported through partnerships and donations from people who value our mission.</p>
+          </div>
+        </div>
+        
+        <div class="faq-card">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            <h3>How accurate is the technical information on your site?</h3>
+            <i class="fas fa-chevron-down faq-toggle"></i>
+          </div>
+          <div class="faq-answer">
+            <p>We strive for the highest level of accuracy in all our technical information. Our content is researched by engineering professionals and cross-verified with multiple sources. When discrepancies exist between sources, we note this in the content. If you find any inaccuracies, please report them through our Contact page.</p>
+          </div>
+        </div>
+        
+        <div class="faq-card">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            <h3>Can I use BridgeX content for my school project?</h3>
+            <i class="fas fa-chevron-down faq-toggle"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, you're welcome to use our content for educational purposes like school projects, provided you credit BridgeX as the source. For commercial uses or publications, please contact us for permission.</p>
+          </div>
+        </div>
+        
+        <!-- Contact Promo -->
+        <div class="contact-promo">
+          <h3>Didn't find your answer?</h3>
+          <p>We're happy to help with any other questions you might have about bridges or our platform.</p>
+          <a href="contact.html" class="btn btn-primary mt-3">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Company Info -->
+      <div class="footer-col">
+        <img src="./images/bridgelogo1.png" alt=""  style=" margin-bottom: 1.2rem; height: 30px;">
+        <p class="footer-about">Dedicated to showcasing engineering marvels and the history of bridge architecture worldwide.</p>
+        <div class="footer-legal">
+          <p>&copy; 2025 BridgeX. All Rights Reserved.</p>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="history.html">Bridge History</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+
+      <!-- Connect -->
+      <div class="footer-col">
+        <h4>Connect With Us</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-contact">
+          <p><i class="fas fa-envelope"></i> info@bridgex.com</p>
+          <p><i class="fas fa-phone"></i> +92 123456789</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+<script> window.chtlConfig = { chatbotId: "6762866872" } </script>
+<script async data-id="6762866872" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+  <script src="./js/faq.js"></script>
+</body>
+</html>
