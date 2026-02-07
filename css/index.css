@@ -149,7 +149,7 @@ display: none !important;
   /* Header Section Styles */
   .hero-section {
     height: 100vh;
-    background-image: url('../images/Bridge\ Img.png');
+    background-image: url('../images/Bridge\ Img.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

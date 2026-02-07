@@ -47,13 +47,13 @@ def convert_to_webp(source_path, quality=85):
         new_size = os.path.getsize(output_path) / 1024  # KB
         savings = ((original_size - new_size) / original_size) * 100
         
-        print(f"[OK] {Path(source_path).name}")
-        print(f"  Original: {original_size:.1f} KB -> WebP: {new_size:.1f} KB (Saved {savings:.1f}%)")
+        print(f"✓ {Path(source_path).name}")
+        print(f"  Original: {original_size:.1f} KB → WebP: {new_size:.1f} KB (Saved {savings:.1f}%)")
         
         return output_path
         
     except Exception as e:
-        print(f"[ERROR] Error converting {source_path}: {str(e)}")
+        print(f"✗ Error converting {source_path}: {str(e)}")
         return None
 
 def main():
@@ -77,7 +77,7 @@ def main():
         print("No images found to convert")
         return
     
-    print(f"\n*** Found {len(image_files)} images to convert\n")
+    print(f"\n🖼️  Found {len(image_files)} images to convert\n")
     print("=" * 60)
     
     converted = 0
@@ -98,13 +98,13 @@ def main():
         print()
     
     print("=" * 60)
-    print(f"\n[SUCCESS] Conversion Complete!")
-    print(f"Statistics:")
+    print(f"\n✅ Conversion Complete!")
+    print(f"📊 Statistics:")
     print(f"   - Images converted: {converted}/{len(image_files)}")
     print(f"   - Total original size: {total_original_size:.1f} KB ({total_original_size/1024:.1f} MB)")
     print(f"   - Total new size: {total_new_size:.1f} KB ({total_new_size/1024:.1f} MB)")
     print(f"   - Total savings: {total_original_size - total_new_size:.1f} KB ({((total_original_size - total_new_size)/total_original_size)*100:.1f}%)")
-    print(f"\nNext steps:")
+    print(f"\n💡 Next steps:")
     print(f"   1. Update HTML files to reference .webp images")
     print(f"   2. Update README.md with .webp references")
     print(f"   3. Test the website to ensure all images load")
