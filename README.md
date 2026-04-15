@@ -4,23 +4,6 @@
 
 **BridgeX** is a comprehensive web platform dedicated to showcasing the world's most remarkable bridges, their engineering marvels, and historical significance. From the longest spans to the oldest structures still standing, BridgeX connects you to the fascinating world of bridge architecture and engineering.
 
----
-
-## 📋 Table of Contents
-
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
-- [Pages Overview](#pages-overview)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Contact](#contact)
-- [License](#license)
-
----
-
 ## 🎯 About the Project
 
 BridgeX was founded in 2025 as a passion project by civil engineers and architecture enthusiasts. Our mission is to bridge the gap between technical knowledge and public appreciation of these magnificent structures that connect communities and shape our landscapes.
