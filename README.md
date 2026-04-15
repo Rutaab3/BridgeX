@@ -8,7 +8,7 @@
 
 BridgeX was founded in 2025 as a passion project by civil engineers and architecture enthusiasts. Our mission is to bridge the gap between technical knowledge and public appreciation of these magnificent structures that connect communities and shape our landscapes.
 
-### Key Statistics
+### Key Statistics (All Fake)
 - **500+** Bridges Cataloged
 - **75+** Countries Covered
 - **10K+** Monthly Visitors
