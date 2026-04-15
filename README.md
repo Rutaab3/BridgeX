@@ -289,22 +289,6 @@ We welcome contributions from the community! Here's how you can help:
 
 ---
 
-## 📞 Contact
-
-**BridgeX Team**
-
-- **Email**: info@bridgex.com
-- **Phone**: +92 123456789
-- **Website**: [BridgeX](https://github.com/Rutaab3/BridgeX)
-
-### Connect With Us
-- [Facebook](https://www.facebook.com)
-- [Twitter](https://www.twitter.com)
-- [Instagram](https://www.instagram.com)
-- [LinkedIn](https://www.linkedin.com)
-
----
-
 ## 📜 License
 
 Copyright © 2025 BridgeX. All Rights Reserved.
