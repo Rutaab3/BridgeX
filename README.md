@@ -182,7 +182,7 @@ Information about BridgeX, including:
 - Platform statistics
 
 ### 📧 Contact Page (`contact.html`)
-Contact form and information:
+Contact form and information (dummy entries):
 - Email: info@bridgex.com
 - Phone: +92 123456789
 - Social media links
@@ -309,9 +309,9 @@ See [Terms of Service](termsandservice.html) and [Privacy Policy](privacypolicy.
 
 ## 🔗 Quick Links
 
-- [Live Website](https://rutaab3.github.io/BridgeX) *(if deployed)*
-- [Report Issues](https://github.com/Rutaab3/BridgeX/issues)
-- [Suggest Features](https://github.com/Rutaab3/BridgeX/issues)
+- [Live Website](https://rutaabali3.github.io/BridgeX) *(if deployed)*
+- [Report Issues](https://github.com/rutaabali3/BridgeX/issues)
+- [Suggest Features](https://github.com/rutaabali3/BridgeX/issues)
 
 ---
 
