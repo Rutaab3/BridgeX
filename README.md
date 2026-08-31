@@ -1,10 +1,10 @@
-# 🌉 BridgeX - Explore the World's Most Amazing Bridges
+# BridgeX - Explore the World's Most Amazing Bridges
 
 ![Project Preview](images/readme.webp)
 
 **BridgeX** is a comprehensive web platform dedicated to showcasing the world's most remarkable bridges, their engineering marvels, and historical significance. From the longest spans to the oldest structures still standing, BridgeX connects you to the fascinating world of bridge architecture and engineering.
 
-## 🎯 About the Project
+## About the Project
 
 BridgeX was founded in 2025 as a passion project by civil engineers and architecture enthusiasts. Our mission is to bridge the gap between technical knowledge and public appreciation of these magnificent structures that connect communities and shape our landscapes.
 
@@ -16,27 +16,27 @@ BridgeX was founded in 2025 as a passion project by civil engineers and architec
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔍 Comprehensive Bridge Categories
+### Comprehensive Bridge Categories
 - **Longest Bridges**: Explore the world's most extensive bridge structures spanning great distances
 - **Tallest Bridges**: Discover bridges that reach staggering heights above valleys and waterways
 - **Highest Bridges**: View bridges built at extreme elevations above sea level
 - **Oldest Bridges**: Journey through history with bridges that have stood the test of time
 
-### 📚 Rich Content
+### Rich Content
 - Detailed historical information about famous bridges worldwide
 - Engineering breakthrough timelines from Roman arch bridges to modern smart bridges
 - Beautiful image gallery with high-quality bridge photography
 - Travel guides for visiting iconic bridges
 
-### 💬 User Engagement
+### User Engagement
 - Interactive feedback system
 - Contact form for inquiries
 - AI-powered chatbot for instant assistance
 - FAQ section for common questions
 
-### 🎨 Modern Design
+### Modern Design
 - Responsive Bootstrap 5 design
 - Dark theme with professional aesthetics
 - Smooth animations and transitions
@@ -45,7 +45,7 @@ BridgeX was founded in 2025 as a passion project by civil engineers and architec
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - **HTML5**: Semantic markup for better accessibility
@@ -59,7 +59,7 @@ BridgeX was founded in 2025 as a passion project by civil engineers and architec
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 BridgeX/
@@ -107,9 +107,9 @@ BridgeX/
 
 ---
 
-## 📄 Pages Overview
+## Pages Overview
 
-### 🏠 Home Page (`index.html`)
+### Home Page (`index.html`)
 The landing page features:
 - Hero section with welcome message
 - Engineering breakthroughs timeline (100 BCE - 2024)
@@ -118,7 +118,7 @@ The landing page features:
 
 ![Home Page Features](images/danyang-kunshan%20bridge_.webp)
 
-### 📖 Categories Pages
+### Categories Pages
 
 #### Longest Bridges (`longestbridges.html`)
 Showcases bridges spanning the greatest distances, including:
@@ -157,53 +157,53 @@ Historic bridges that have endured through time:
 
 ![Arkadiko Bridge](images/arkadiko%20bridge.webp)
 
-### 📜 History Page (`history.html`)
+### History Page (`history.html`)
 Comprehensive historical information about bridges from ancient civilizations to modern engineering, including:
 - Roman bridge engineering
 - Medieval European bridges
 - Industrial Revolution innovations
 - Modern suspension and cable-stayed bridges
 
-### 🖼️ Gallery Page (`gallery.html`)
+### Gallery Page (`gallery.html`)
 Beautiful collection of high-quality bridge photography from around the world, organized by categories and regions.
 
-### ✈️ Travel Page (`travel.html`)
+### Travel Page (`travel.html`)
 Travel guides and visitor information for iconic bridges worldwide, including:
 - Best viewing locations
 - Visiting hours and access
 - Photography tips
 - Nearby attractions
 
-### 👥 About Us Page (`about.html`)
+### About Us Page (`about.html`)
 Information about BridgeX, including:
 - Company story and founding
 - Mission and vision statements
 - Team member profiles
 - Platform statistics
 
-### 📧 Contact Page (`contact.html`)
+### Contact Page (`contact.html`)
 Contact form and information (dummy entries):
 - Email: info@bridgex.com
 - Phone: +92 123456789
 - Social media links
 - Contact form for inquiries
 
-### 💬 Feedback Page (`feedback.html`)
+### Feedback Page (`feedback.html`)
 User feedback form for suggestions and comments to improve the platform.
 
-### ❓ FAQ Page (`faq.html`)
+### FAQ Page (`faq.html`)
 Frequently asked questions about:
 - Bridge engineering
 - Using the website
 - Contributing information
 - Historical accuracy
 
-### 🔐 Login Page (`login.html`)
+### Login Page (`login.html`)
 User authentication for personalized features and saved preferences.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - A modern web browser (Chrome, Firefox, Safari, Edge)
@@ -225,14 +225,14 @@ User authentication for personalized features and saved preferences.
 3. **Open the project**
    - Simply open `index.html` in your web browser
    - Or use a local development server:
-   
+
    ```bash
    # Using Python
    python -m http.server 8000
-   
+
    # Using Node.js
    npx serve
-   
+
    # Using PHP
    php -S localhost:8000
    ```
@@ -243,7 +243,7 @@ User authentication for personalized features and saved preferences.
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### Exploring Bridges
 1. Navigate to the home page
@@ -268,7 +268,7 @@ User authentication for personalized features and saved preferences.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from the community! Here's how you can help:
 
@@ -289,7 +289,7 @@ We welcome contributions from the community! Here's how you can help:
 
 ---
 
-## 📜 License
+## License
 
 Copyright © 2025 BridgeX. All Rights Reserved.
 
@@ -297,7 +297,7 @@ See [Terms of Service](termsandservice.html) and [Privacy Policy](privacypolicy.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Bootstrap team for the excellent CSS framework
 - Font Awesome for comprehensive icon library
@@ -307,7 +307,7 @@ See [Terms of Service](termsandservice.html) and [Privacy Policy](privacypolicy.
 
 ---
 
-## 🔗 Quick Links
+## Quick Links
 
 - [Live Website](https://rutaabali3.github.io/BridgeX) *(if deployed)*
 - [Report Issues](https://github.com/rutaabali3/BridgeX/issues)
@@ -315,4 +315,4 @@ See [Terms of Service](termsandservice.html) and [Privacy Policy](privacypolicy.
 
 ---
 
-**Built with ❤️ by the BridgeX Team | Connecting the past to the future, one span at a time.**
+**Built with passion by the BridgeX Team | Connecting the past to the future, one span at a time.**
