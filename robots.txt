@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block indexing of the login/authentication page
+Disallow: /login.html
+
+# Sitemap location
+Sitemap: https://rutaabali3.github.io/BridgeX/sitemap.xml

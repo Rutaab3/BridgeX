@@ -331,3 +331,24 @@ footer {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
 }
+/* SEO Breadcrumb */
+.seo-breadcrumb {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+.seo-breadcrumb .breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+.seo-breadcrumb .breadcrumb-item a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.seo-breadcrumb .breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+.seo-breadcrumb .breadcrumb-item.active {
+  color: var(--text-color);
+}
