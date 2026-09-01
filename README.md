@@ -309,7 +309,7 @@ See [Terms of Service](termsandservice.html) and [Privacy Policy](privacypolicy.
 
 ## Quick Links
 
-- [Live Website](https://rutaabali3.github.io/BridgeX) *(if deployed)*
+- [Live Website](https://bridgexapp.vercel.app/)
 - [Report Issues](https://github.com/rutaabali3/BridgeX/issues)
 - [Suggest Features](https://github.com/rutaabali3/BridgeX/issues)
 
