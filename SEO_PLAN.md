@@ -1,6 +1,6 @@
 # BridgeX — SEO Improvement Plan
 
-**Status:** ✅ Approved & Applied — base URL: `https://rutaabali3.github.io/BridgeX/`
+**Status:** ✅ Approved & Applied — base URL: `https://bridgexapp.vercel.app/`
 
 ## Site Overview (from audit)
 BridgeX is a static HTML/CSS/JS website (no build system, no `package.json`) about famous bridges. 17 pages, all share a consistent nav/footer, pages link to each other with relative `*.html` links. Images are local WebP files.

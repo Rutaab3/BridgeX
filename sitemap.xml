@@ -1,78 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/</loc>
+    <loc>https://bridgexapp.vercel.app/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/about.html</loc>
+    <loc>https://bridgexapp.vercel.app/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/contact.html</loc>
+    <loc>https://bridgexapp.vercel.app/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/faq.html</loc>
+    <loc>https://bridgexapp.vercel.app/faq.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/feedback.html</loc>
+    <loc>https://bridgexapp.vercel.app/feedback.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/gallery.html</loc>
+    <loc>https://bridgexapp.vercel.app/gallery.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/highestbridges.html</loc>
+    <loc>https://bridgexapp.vercel.app/highestbridges.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/history.html</loc>
+    <loc>https://bridgexapp.vercel.app/history.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/longestbridges.html</loc>
+    <loc>https://bridgexapp.vercel.app/longestbridges.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/oldestbridges.html</loc>
+    <loc>https://bridgexapp.vercel.app/oldestbridges.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/privacypolicy.html</loc>
+    <loc>https://bridgexapp.vercel.app/privacypolicy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/sitemap.html</loc>
+    <loc>https://bridgexapp.vercel.app/sitemap.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/tallestbridges.html</loc>
+    <loc>https://bridgexapp.vercel.app/tallestbridges.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/termsandservice.html</loc>
+    <loc>https://bridgexapp.vercel.app/termsandservice.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://rutaabali3.github.io/BridgeX/travel.html</loc>
+    <loc>https://bridgexapp.vercel.app/travel.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bridgexapp.vercel.app/updates.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

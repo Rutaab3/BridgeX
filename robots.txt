@@ -5,4 +5,4 @@ Allow: /
 Disallow: /login.html
 
 # Sitemap location
-Sitemap: https://rutaabali3.github.io/BridgeX/sitemap.xml
+Sitemap: https://bridgexapp.vercel.app/sitemap.xml
