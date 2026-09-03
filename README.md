@@ -291,7 +291,7 @@ We welcome contributions from the community! Here's how you can help:
 
 ## License
 
-Copyright © 2025 BridgeX. All Rights Reserved.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 See [Terms of Service](termsandservice.html) and [Privacy Policy](privacypolicy.html) for more information.
 
