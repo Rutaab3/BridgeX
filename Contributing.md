@@ -13,6 +13,7 @@ Below is a list of the core contributors to this project.
 | Syed Muhammed faraz | [muhammedfaraz875@gmail.com](mailto:muhammedfaraz875@gmail.com) | Contributor |
 | Muhammad Shiraz | [muhammadshiraz2412c1@gmail.com](mailto:muhammadshiraz2412c1@gmail.com) | Contributor |
 | Ahad Mirza | [ahadmirza1604@gmail.com](mailto:ahadmirza1604@gmail.com) | Contributor |
+| Jules | [161369871+google-labs-jules[bot]@users.noreply.github.com](mailto:161369871+google-labs-jules[bot]@users.noreply.github.com) | Contributor |
 
 ## How to Contribute
 
